@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="esp-MX">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Recetario: "Kiwi Limon"</title>
+    </head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark d-flex justify-content-between">
+    
+  <a class="navbar-brand" href="#">La cocina de Flor</a>
+    <div class="form-inline ml-autos" >
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Rreceta</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Pollo" id="txt_receta">
+        <button class="btn btn-success my-2 my-sm-0" type="button" id="btn_buscar">Buscar</button>
+      </div>
+    </div>
+  </nav>
+    <main class="container" >
+      <div class="row " id="contendor_recetas">
+        <div class="col-12"><h1>Realiza una busqueda primero</h1></div>
+      </div>
+
+      </main>
+      
+<!-- The actual snackbar -->
+<div id="snackbar" class="d-flex justify-content-between">
+  <span class="my-1">Hay una nueva version disponible</span>
+  <button class=" btn btn-outline-primary rounded my-1" id="btn-update" href="">Actualizar</button>
+</div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js" type="module"></script>
+    <script src="recetas.js" type="module"></script>
+</body>
+</html>
