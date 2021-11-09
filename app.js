@@ -6,10 +6,9 @@ window.addEventListener("load", function() {
         registration.addEventListener('updatefound',()=>{
             newServiceWorker=registration.installing;
             newServiceWorker.addEventListener('statechange', ()=>{
-                //if , switch
+                
                 switch(newServiceWorker.state){
                     case 'installed':
-                        //lanzar snackbar
                         ShowSanckBar();
                         break;
                         default:

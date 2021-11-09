@@ -6,9 +6,32 @@
 }
 
 body {
-  background: #fdfdfd;
+  background: #1f1e1e;
   font-family: "Nunito", sans-serif;
   font-size: 1rem;
+  background-color: transparent;
+  
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+h1 {
+  color: #db0925;
+  font-family: fantasy;
+  margin-bottom: 0.3rem;
+  font-size: 5vw;
+  text-align: center; 
+}
+
+p.monos {
+  color: #850d1d;
+  font-family: monospace;
+  margin-bottom: 0.5rem;
+  font-size: 3vw;
+  text-align: center; 
 }
 
 

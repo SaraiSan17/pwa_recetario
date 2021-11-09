@@ -26,6 +26,7 @@ if(busqueda!=''){
         });
 
         contendor.innerHTML=recetas;
+        
      }else{
          contendor.innerHTML='<div class="col-12 text-center"><h1>No se encontrarón recetas</h1></div>'
      }
