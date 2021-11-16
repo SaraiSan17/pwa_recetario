@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="esp-MX">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Recetario: La cocina de Flor "</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/icon-192x192.png" />
+    </head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark d-flex justify-content-between">
+    
+  <a class="navbar-brand" href="#">
+    <img src="/images/icon-256x256.png" alt="" width="30" height="24">La cocina de Flor</a>
+  
+    <div class="form-inline ml-autos" >
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Receta</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Platillo" id="txt_receta">
+        <button class="btn btn-success my-2 my-sm-0" type="button" id="btn_buscar">Buscar</button>
+      </div>
+    </div>
+  </nav>
+    <main class="container" >
+      <div class="row " id="contendor_recetas">
+    </div>
+    </main>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="/images/images.jpg" alt="Bienvenido">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/images/images2.jpg" alt="Gran variedad">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/images/images3.jpg" alt="Diferentes Recetas">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div><br><h1>Bienvenido a La cocina de Flor</h1></div>
+    <p class="monos"><br> Aqui encontraras infinidad de Recetas de los platillos que tu desees, solo agrega una palabra en la caja de texto de arriba y a disfrutar!! </p>
+    
+      
+<!-- The actual snackbar -->
+<div id="snackbar" class="d-flex justify-content-between">
+  <span class="my-1">Hay una nueva version disponible</span>
+  <button class=" btn btn-outline-primary rounded my-1" id="btn-update" href="">Actualizar</button>
+</div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+    <script src="recetas.js"></script>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="#"> PWA La cocina de Flor</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->   
+</body>
+</html>
