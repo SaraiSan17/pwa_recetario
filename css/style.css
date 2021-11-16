@@ -11,6 +11,12 @@
     text-transform: capitalize;
     transition: all .2s linear;
 }
+a 
+
+{
+
+}
+
 
 body {
   background: #1f1e1e;
@@ -103,7 +109,7 @@ p.monos {
 
 
 html{
-    font-size: 62.5%;
+    font-size: 75.5%;
     overflow-x: hidden;
     scroll-padding-top: 5.5rem;
     scroll-behavior: smooth;
@@ -373,14 +379,14 @@ header .icons #menu-bars{
 
 .footer .box-container .box h3{
     padding:.5rem 0;
-    font-size: 2.5rem;
+    font-size: 15.5rem;
     color:var(--black);
 }
 
 .footer .box-container .box a{
     display: block;
     padding:.5rem 0;
-    font-size: 1.5rem;
+    font-size: 15.5rem;
     color:var(--light-color);
 }
 
@@ -389,19 +395,8 @@ header .icons #menu-bars{
     text-decoration: underline;
 }
 
-.footer .credit{
-    text-align: center;
-    border-top: .1rem solid rgba(0,0,0,.1);
-    font-size: 2rem;
-    color:var(--black);
-    padding:.5rem;
-    padding-top: 1.5rem;
-    margin-top: 1.5rem;
-}
 
-.footer .credit span{
-    color:var(--green);
-}
+
 
 .loader-container{
     position: fixed;

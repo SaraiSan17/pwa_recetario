@@ -17,7 +17,6 @@
      <!-- Android -->
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/x-icon" href="/images/Android/icon-512x512.png" />
 
     <!-- iOS  -->
@@ -123,8 +122,8 @@
 <footer class="page-footer font-small blue">
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2021 Copyright:
-      <a href="#"> PWA La cocina de Flor</a>
+    <div class="footer-copyright text-center py-5">© 2021 Copyright:
+      <a href="#"> <h4>PWA La cocina de Flor</h4></a>
     </div>
     <!-- Copyright -->
   
@@ -136,14 +135,21 @@
     <img src="images/loader.gif" alt="">
 </div>
 
+<!-- The actual snackbar -->
+<div id="snackbar" class="d-flex justify-content-between">
+    <span class="my-1">Hay una nueva version disponible</span>
+    <button class=" btn btn-outline-primary rounded my-1" id="btn-update" href="">Actualizar</button>
+  </div>
+<!-- other script  -->
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<!-- custom js file link  -->
+<!-- script  -->
 <script src="js/script.js"></script>
-<script src="app.js"></script>
-<script src="recetas.js"></script>
+<script src="js/app.js"></script>
+<script src="js/recetas.js"></script>
 </body>
 </html>
