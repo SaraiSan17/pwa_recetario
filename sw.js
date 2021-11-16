@@ -7,10 +7,9 @@ self.addEventListener("install", installEvent => {
     const assets = [
         "/",
         "/index.html",
-        "/css/style.css",
-        "/js/app.js",
-        "/js/recetas.js",
-        "/js/script"
+        "/style.css",
+        "/app.js",
+        "/recetas.js"
       ];
       const inmutableAssets=[
         'https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css',
